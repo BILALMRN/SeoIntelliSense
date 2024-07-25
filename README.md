@@ -1,65 +1,61 @@
-# seo README
+# Seo IntelliSense README
 
-This is the README for your extension "seo". After writing up a brief description, we recommend including the following sections.
+## Overview
+This extension for Visual Studio Code provides convenient snippets for quickly inserting SEO meta tags and JSON-LD schema markup into your files. It aims to streamline the process of adding essential SEO elements and structured data to web pages.
 
 ## Features
+- **SEO Meta Tags**: Snippets for commonly used meta tags.
+- **JSON-LD Schema**: Snippets for various types of structured data using JSON-LD format, such as Article, BlogPosting, FAQ, Organization, etc.
+- **Customization**: Easily customizable snippets to suit specific SEO needs and preferences.
+- **Time-saving**: Accelerate your development process by reducing the time spent on writing repetitive SEO and schema markup.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Usage
+1. Install the extension from the VS Code Marketplace.
+2. Open an file in VS Code.
+3. Type the snippet prefix (e.g., `@seo.`) and press `Tab` to insert the snippet.
 
-For example if there is an image subfolder under your extension project workspace:
+## Snippets Available
 
-\!\[feature X\]\(images/feature-x.png\)
+### SEO Meta Tags
+- `@seo.metaTags` : Inserts Basic Meta Tags for SEO.
+- `@seo.opengraph.product` : Inserts Open Graph meta tags for Product.
+- `@seo.opengraph.Article` : Inserts Open Graph meta tags for Article.
+- `@seo.opengraph.Website` : Inserts Open Graph meta tags for Website.
+- `@seo.opengraph.Video` : Inserts Open Graph meta tags for Video.
+- `@seo.twitterCard.summary` : Inserts Twitter Card meta tags for Summary Card.
+- `@seo.twitterCard.summaryLargeImage` : Inserts Twitter Card meta tags for Summary Card with Large Image.
+- `@seo.twitterCard.app` : Inserts Twitter Card meta tags for App Card.
+- `@seo.twitterCard.player` : Inserts Twitter Card meta tags for Player Card.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### JSON-LD Schema
+- `@seo.json-ld` : SEO Rich Snippet for tag script (JSON-LD).
+- `@seo.json-ld.article` : Inserts Article schema markup.
+- `@seo.json-ld.newsArticle` : Inserts NewsArticle schema markup.
+- `@seo.json-ld.product` : Inserts Product schema markup.
+- `@seo.json-ld.blogpost` : Inserts BlogPost schema markup.
+- `@seo.json-ld.howto` : Inserts HowTo schema markup.
+- `@seo.json-ld.faq` : Inserts FAQPage schema markup.
+- `@seo.json-ld.person` : Inserts Person schema markup.
+- `@seo.json-ld.organization` : Inserts Organization schema markup.
+- `@seo.json-ld.breadcrumb` : Inserts BreadcrumbList schema markup.
+- `@seo.json-ld.service` : Inserts Service schema markup.
+- `@seo.json-ld.localbusiness` : Inserts LocalBusiness schema markup.
+- `@seo.json-ld.restaurant` : Inserts Restaurant schema markup.
+- `@seo.json-ld.job` : Inserts JobPosting schema markup.
+- `@seo.json-ld.book` : Inserts Book schema markup.
+- `@seo.json-ld.softwareApplication` : Inserts SoftwareApplication schema markup.
+- `@seo.json-ld.movie` : Inserts Movie schema markup.
+- `@seo.json-ld.itemlist` : Inserts ItemList schema markup.
+- `@seo.json-ld.recipe` : Inserts Recipe schema markup.
+- `@seo.json-ld.review` : Inserts Review schema markup.
+- `@seo.json-ld.event` : Inserts Event schema markup.
+- `@seo.json-ld.videoObject` : Inserts VideoObject schema markup.
 
-## Requirements
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new snippets, feel free to fork the repository and submit a pull request.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## License
+This extension is licensed under the MIT License.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Support
+For questions, issues, or feature requests, please [submit an issue](https://github.com/BILALMRN/SeoIntelliSense/issues).
