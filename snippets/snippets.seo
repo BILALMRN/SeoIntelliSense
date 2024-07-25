@@ -1,6 +1,17 @@
 {
     
-
+    "Basic Meta Tags for SEO": {
+        "prefix": "@seo.metaTags",
+        "body": [
+            "<title>${1:Page Title}</title>",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<meta name=\"keywords\" content=\"${2:keyword1, keyword2, keyword3}\">",
+            "<meta name=\"description\" content=\"${3:Brief description of your webpage content}\">",
+            "<meta name=\"robots\" content=\"index, follow\">",
+            "<link rel=\"canonical\" href=\"${4:https://www.your-example.com/original-page/(especially_useful_for_similar_content_accessible_via_multiple_URLs)}\">"
+        ],
+        "description": "Basic meta tags for SEO"
+    },
     "Opengraph Product": {
         "prefix": "@seo.opengraph.product",
         "body": [
@@ -8,9 +19,9 @@
             "<meta property=\"og:title\" content=\"${1:Name of product}\" />",
             "<meta property=\"og:image\" content=\"${2:http://www.example.com/path/to/image/image.jpg}\" />",
             "<meta property=\"og:description\" content=\"${3:Description of product}\" />",
-            "<meta property=\"product:brand\" content=\"${5:Brand name}\" />",
-            "<meta property=\"product:price:currency\" content=\"${8:USD}\" />",
-            "<meta property=\"product:price:amount\" content=\"$9\" />"
+            "<meta property=\"product:brand\" content=\"${4:Brand name}\" />",
+            "<meta property=\"product:price:currency\" content=\"${5:USD}\" />",
+            "<meta property=\"product:price:amount\" content=\"$6\" />"
         ],
         "description": "Open Graph meta tags for Product"
     },
@@ -22,11 +33,11 @@
             "<meta property=\"og:type\" content=\"article\" />",
             "<meta property=\"og:title\" content=\"${1:Article headline}\" />",
             "<meta property=\"og:image\" content=\"${2:https://my-company.com/thumbnail1.jpg}\" />",
-            "<meta property=\"og:description\" content=\"${13:A most wonderful article}\" />",
-            "<meta property=\"article:published time\" content=\"${5:YYYY-MM-DDThh:ii:ss+hh:ii}\" />",
-            "<meta property=\"article:modified time\" content=\"${6:YYYY-MM-DDThh:ii:ss+hh:ii}\" />",
-            "<meta property=\"og:site name\" content=\"${9:My Company}\" />",
-            "<meta property=\"og:locale\" content=\"${10:en US}\" />"
+            "<meta property=\"og:description\" content=\"${3:A most wonderful article}\" />",
+            "<meta property=\"article:published time\" content=\"${4:YYYY-MM-DDThh:ii:ss+hh:ii}\" />",
+            "<meta property=\"article:modified time\" content=\"${5:YYYY-MM-DDThh:ii:ss+hh:ii}\" />",
+            "<meta property=\"og:site name\" content=\"${6:My Company}\" />",
+            "<meta property=\"og:locale\" content=\"${7:en US}\" />"
         ],
         "description": "Open Graph meta tags for Article"
     },
@@ -70,10 +81,10 @@
         "body": [
             "<meta name=\"twitter:card\" content=\"summary\" />",
             "<meta name=\"twitter:title\" content=\"${1:Article headline}\" />",
-            "<meta name=\"twitter:description\" content=\"${13:A most wonderful article}\" />",
-            "<meta name=\"twitter:image\" content=\"${2:https://my-company.com/thumbnail1.jpg}\" />",
-            "<meta name=\"twitter:site\" content=\"@${9:twitterusername}\" />",
-            "<meta name=\"twitter:creator\" content=\"@${7:Author name}\" />"
+            "<meta name=\"twitter:description\" content=\"${2:A most wonderful article}\" />",
+            "<meta name=\"twitter:image\" content=\"${3:https://my-company.com/thumbnail1.jpg}\" />",
+            "<meta name=\"twitter:site\" content=\"@${4:twitterusername}\" />",
+            "<meta name=\"twitter:creator\" content=\"@${5:Author name}\" />"
         ],
         "description": "Twitter Card meta tags for Summary Card"
     },
@@ -83,10 +94,10 @@
         "body": [
             "<meta name=\"twitter:card\" content=\"summary large image\" />",
             "<meta name=\"twitter:title\" content=\"${1:Article headline}\" />",
-            "<meta name=\"twitter:description\" content=\"${13:A most wonderful article}\" />",
-            "<meta name=\"twitter:image\" content=\"${2:https://my-company.com/thumbnail1.jpg}\" />",
-            "<meta name=\"twitter:site\" content=\"@${9:twitterusername}\" />",
-            "<meta name=\"twitter:creator\" content=\"@${7:Author name}\" />"
+            "<meta name=\"twitter:description\" content=\"${2:A most wonderful article}\" />",
+            "<meta name=\"twitter:image\" content=\"${3:https://my-company.com/thumbnail1.jpg}\" />",
+            "<meta name=\"twitter:site\" content=\"@${4:twitterusername}\" />",
+            "<meta name=\"twitter:creator\" content=\"@${5:Author name}\" />"
         ],
         "description": "Twitter Card meta tags for Summary Card with Large Image"
     },
@@ -768,5 +779,44 @@
             "}"
         ],
         "description": "SEO Rich Snippet for FAQ Pages"
+    },
+    "JSON-LD BlogPost": {
+        "prefix": "@seo.json-ld.blogpost",
+        "body": [
+            "{",
+            "\t\"@context\": \"https://schema.org\",",
+            "\t\"@type\": \"BlogPosting\",",
+            "\t\"mainEntityOfPage\": {",
+            "\t\t\"@type\": \"WebPage\",",
+            "\t\t\"@id\": \"${1:https://www.example.com/blog-post}\"",
+            "\t},",
+            "\t\"headline\": \"${2:Title of the Blog Post}\",",
+            "\t\"image\": {",
+            "\t\t\"@type\": \"ImageObject\",",
+            "\t\t\"url\": \"${3:https://www.example.com/path/to/image.jpg}\",",
+            "\t\t\"width\": ${4:800},",
+            "\t\t\"height\": ${5:600}",
+            "\t},",
+            "\t\"datePublished\": \"${6:2024-07-25}T${7:08:00:00Z}\",",
+            "\t\"dateModified\": \"${8:2024-07-25}T${9:09:00:00Z}\",",
+            "\t\"author\": {",
+            "\t\t\"@type\": \"Person\",",
+            "\t\t\"name\": \"${10:Author Name}\"",
+            "\t},",
+            "\t\"publisher\": {",
+            "\t\t\"@type\": \"Organization\",",
+            "\t\t\"name\": \"${11:Example Publisher}\",",
+            "\t\t\"logo\": {",
+            "\t\t\t\"@type\": \"ImageObject\",",
+            "\t\t\t\"url\": \"${12:https://www.example.com/path/to/logo.jpg}\",",
+            "\t\t\t\"width\": ${13:600},",
+            "\t\t\t\"height\": ${14:60}",
+            "\t\t}",
+            "\t},",
+            "\t\"description\": \"${15:Description of the blog post content}\",",
+            "\t\"articleBody\": \"${16:Full text of the blog post content goes here.}\"",
+            "}"
+        ],
+        "description": "JSON-LD structured data for a blog post"
     }
 }
