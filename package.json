@@ -1,0 +1,73 @@
+{
+  "name": "seo",
+  "displayName": "Seo IntelliSense",
+  "description": "Extension Snippet for SEO Meta Tags and JSON-LD Schema",
+  "version": "0.0.1",
+  "publisher": "Bilal",
+  "icon": "icon.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BilalMrn/SeoIntelliSense.git"
+  },
+  "homepage": "https://github.com/BilalMrn/SeoIntelliSense/readme",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "galleryBanner": {
+        "color": "#1E81C1",
+        "theme": "light"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "tags": [
+      "Seo IntelliSense",
+        "vscode",
+        "SEO", 
+        "metadata",
+        "Visual Studio Code",
+        "Snippets",
+        "SEO Rich Snippets"
+    ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/snippets.seo"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/snippets.seo"
+      }
+    ]
+  }
+}
