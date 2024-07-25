@@ -2,34 +2,47 @@
   "name": "seo",
   "displayName": "Seo IntelliSense",
   "description": "Extension Snippet for SEO Meta Tags and JSON-LD Schema",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "Bilal",
   "icon": "icon.png",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "repository": {
     "type": "git",
     "url": "https://github.com/BilalMrn/SeoIntelliSense.git"
   },
-  "homepage": "https://github.com/BilalMrn/SeoIntelliSense/readme",
+  "homepage": "https://github.com/BilalMrn/SeoIntelliSense/",
   "engines": {
     "vscode": "^1.91.0"
   },
   "galleryBanner": {
-        "color": "#1E81C1",
-        "theme": "light"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "tags": [
-      "Seo IntelliSense",
-        "vscode",
-        "SEO", 
-        "metadata",
-        "Visual Studio Code",
-        "Snippets",
-        "SEO Rich Snippets"
-    ],
+    "color": "#1E81C1",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "Seo IntelliSense",
+    "vscode",
+    "SEO",
+    "html",
+    "snippet",
+    "metadata",
+    "Visual Studio Code",
+    "Snippets",
+    "SEO Rich Snippets"
+  ],
+  "tags": [
+    "Seo IntelliSense",
+    "vscode",
+    "SEO",
+    "html",
+    "snippet",
+    "metadata",
+    "Visual Studio Code",
+    "Snippets",
+    "SEO Rich Snippets"
+  ],
   "contributes": {
     "snippets": [
       {
