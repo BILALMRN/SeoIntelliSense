@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "seo" extension will be documented in this file.
+All notable changes to this project will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+### 1.0.0
 
 - Initial release
+- Add support for Basic Meta Tags
+- Add support for Open Graph Meta Tags
+- Add support for Twitter Card Meta Tags
+- Add support for JSON-LD Schema
