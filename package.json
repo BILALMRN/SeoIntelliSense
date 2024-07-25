@@ -3,14 +3,17 @@
   "displayName": "Seo IntelliSense",
   "description": "Extension Snippet for SEO Meta Tags and JSON-LD Schema",
   "version": "1.0.0",
-  "publisher": "Bilal",
+  "publisher": "BilalMrn",
+  "author": "BilalMrn",
   "icon": "icon.png",
   "license": "SEE LICENSE IN LICENSE.txt",
   "repository": {
     "type": "git",
     "url": "https://github.com/BilalMrn/SeoIntelliSense.git"
   },
-  "homepage": "https://github.com/BilalMrn/SeoIntelliSense/",
+  "bugs": {
+		"url": "https://github.com/BilalMrn/SeoIntelliSense/issues"
+	},
   "engines": {
     "vscode": "^1.91.0"
   },
