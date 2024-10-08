@@ -2,7 +2,7 @@
   "name": "seo-intellisense",
   "displayName": "Seo IntelliSense",
   "description": "Extension Snippet for SEO Meta Tags and JSON-LD Schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "BilalMrn",
   "author": "BilalMrn",
   "icon": "icon.png",
@@ -49,39 +49,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/snippets.seo"
-      },
-      {
         "language": "html",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "plaintext",
-        "path": "./snippets/snippets.seo"
-      },
-      {
-        "language": "json",
         "path": "./snippets/snippets.seo"
       }
     ]

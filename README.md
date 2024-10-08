@@ -56,6 +56,3 @@ Contributions are welcome! If you have suggestions for improvements or new snipp
 
 ## License
 This extension is licensed under the MIT License.
-
-## Support
-For questions, issues, or feature requests, please [submit an issue](https://github.com/BILALMRN/SeoIntelliSense/issues).

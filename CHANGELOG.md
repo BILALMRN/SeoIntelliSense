@@ -9,3 +9,8 @@ All notable changes to this project will be documented in this file.
 - Add support for Open Graph Meta Tags
 - Add support for Twitter Card Meta Tags
 - Add support for JSON-LD Schema
+
+### 1.0.1
+
+- Disable extension for [JS/TS,...]; only work with HTML files.
+  
